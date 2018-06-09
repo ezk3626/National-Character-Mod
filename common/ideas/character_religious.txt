@@ -1,0 +1,86 @@
+# The religious character ideas. 
+ideas = {
+
+	character_religious = { 
+	
+		law = yes
+		
+		# Theocratic State
+		character_religious_theocratic = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = }
+			modifier = {
+							### None yet
+			}
+		}
+  			
+		# Popular Religion
+		character_religious_popular = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		# Religious Tolerance
+		character_religious_tolerance = {
+		
+			allowed = {
+				
+			}
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		# Secular State
+		character_religious_secular = {
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+				# Atheist State
+		character_religious_atheist = {
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

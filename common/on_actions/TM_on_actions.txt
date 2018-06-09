@@ -1,0 +1,119 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#government set up 
+			every_country = {
+				limit = {
+					has_government = totalist
+						}
+					add_ideas = character_art_blatant_propoganda
+					add_ideas = character_education_military_industrial_complex
+					add_ideas = character_gender_feminist_females
+					add_ideas = character_justice_secret_police
+					add_ideas = character_religious_atheist
+					add_ideas = character_martial_pro_war
+				}
+			every_country = {
+				limit = {
+					has_government = syndicalist
+						}
+					add_ideas = character_art_artistic_freedom
+					add_ideas = character_education_scientific_naturalism
+					add_ideas = character_gender_feminist_females
+					add_ideas = character_justice_local_rule
+					add_ideas = character_religious_secular
+					add_ideas = character_martial_pro_peace
+				}
+			every_country = {
+				limit = {
+					has_government = radical_socialist
+						}
+					add_ideas = character_art_artistic_freedom
+					add_ideas = character_education_scientific_naturalism
+					add_ideas = character_gender_feminist_females
+					add_ideas = character_justice_local_rule
+					add_ideas = character_religious_secular
+					add_ideas = character_martial_pacifism					
+				}
+			every_country = {
+				limit = {
+					has_government = social_democrat
+						}
+					add_ideas = character_art_artistic_freedom
+					add_ideas = character_education_scientific_naturalism
+					add_ideas = character_gender_working_women
+					add_ideas = character_justice_professional_police
+					add_ideas = character_religious_tolerance
+					add_ideas = character_martial_pro_peace
+				}
+			every_country = {
+				limit = {
+					has_government = social_liberal
+						}
+					add_ideas = character_art_artistic_freedom
+					add_ideas = character_education_business_management
+					add_ideas = character_gender_liberal_ladies
+					add_ideas = character_justice_professional_police
+					add_ideas = character_religious_tolerance
+					add_ideas = character_martial_pro_peace
+				}
+			every_country = {
+				limit = {
+					has_government = market_liberal
+						}
+					add_ideas = character_art_popular_entertainment
+					add_ideas = character_education_business_management
+					add_ideas = character_gender_liberal_ladies
+					add_ideas = character_justice_professional_police
+					add_ideas = character_religious_tolerance
+					add_ideas = character_martial_pro_peace
+				}
+			every_country = {
+				limit = {
+					has_government = social_conservative
+						}
+					add_ideas = character_art_elite_patronage
+					add_ideas = character_education_classical_scholarship
+					add_ideas = character_gender_maid_matron
+					add_ideas = character_justice_professional_police
+					add_ideas = character_religious_popular
+					add_ideas = character_martial_pro_military
+				}
+			every_country = {
+				limit = {
+					has_government = authoritarian_democrat
+						}
+					add_ideas = character_art_elite_patronage
+					add_ideas = character_education_classical_scholarship
+					add_ideas = character_gender_maid_matron
+					add_ideas = character_justice_enlightened_absolutism
+					add_ideas = character_religious_popular
+					add_ideas = character_martial_pro_military
+				}
+			every_country = {
+				limit = {
+					has_government = paternal_autocrat
+						}
+					add_ideas = character_art_elite_patronage
+					add_ideas = character_education_classical_scholarship
+					add_ideas = character_gender_maid_matron
+					add_ideas = character_justice_enlightened_absolutism
+					add_ideas = character_religious_popular
+					add_ideas = character_martial_pro_military
+				}
+			every_country = {
+				limit = {
+					has_government = national_populist
+						}
+					add_ideas = character_art_blatant_propoganda
+					add_ideas = character_education_military_industrial_complex
+					add_ideas = character_gender_maid_matron
+					add_ideas = character_justice_secret_police
+					add_ideas = character_religious_theocratic
+					add_ideas = character_martial_pro_military
+				}
+
+			}
+		}
+	
+}

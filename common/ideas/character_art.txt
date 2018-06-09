@@ -1,0 +1,77 @@
+# The artistic character ideas
+ideas = {
+
+	character_art = { 
+	
+		law = yes
+		
+		#Elite Patronage 
+		character_art_elite_patronage = {
+			
+			modifier = {
+			experience_gain_factor = 0.05
+			political_power_gain = 0.10
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+ 
+   			}
+		}
+		
+		#Popular Entertainment
+		character_art_popular_entertainment = {
+			
+			modifier = {
+			political_power_gain = 0.10
+			army_morale_factor = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+
+   			}
+		}
+		
+		#Blatant Propoganda
+		character_art_blatant_propoganda = {
+			
+			modifier = {
+			war_support_weekly = 0.002
+			conscription = 0.0050
+			surrender_limit = 0.10
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		#Artistic Freedom
+		character_art_artistic_freedom = {
+			
+			modifier = {
+				encryption = 0.25
+				research_time_factor = -0.02
+			political_power_gain = -0.05
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+				
+   				
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

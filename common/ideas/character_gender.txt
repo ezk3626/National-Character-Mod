@@ -1,0 +1,73 @@
+# The gender character ideas
+ideas = {
+
+	character_gender = { 
+	
+		law = yes
+		
+		# Maid Matron
+		character_gender_maid_matron = {
+			allowed_to_remove = { always = no }
+			available = { always = no }
+			cancel_if_invalid = no
+			on_add = { log = "ideology = social_conservative : add idea r56i_laws_gender_traditional" }
+			modifier = {
+							### None yet
+			}
+		}
+  				
+		# Liberal Ladies
+		character_gender_liberal_ladies = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		# Working Women
+		character_gender_working_women = {
+		
+			allowed = {
+				
+			}
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		# Feminist Females
+		character_gender_feminist_females = {
+		
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+	}
+}
+
+#####---------------------------------------------------------------------> End

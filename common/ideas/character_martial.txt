@@ -1,0 +1,75 @@
+# The martial character ideas
+ideas = {
+
+	character_martial = { 
+	
+		law = yes
+		
+		# Pacifism
+		character_martial_pacifism = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 100
+			}		
+			
+		}
+		
+		
+		# Pro-Peace
+		character_martial_pro_peace = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+				
+   			}
+		}
+		
+		# Pro-Military
+		character_martial_pro_military = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		# Pro War
+		character_martial_pro_war = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 100
+			}		
+			
+		}
+
+
+			}		
+			
+		}
+

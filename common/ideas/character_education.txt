@@ -1,0 +1,58 @@
+# The education character ideas
+ideas = {
+
+	character_education = { 
+	
+		law = yes
+		
+		#Business Management
+		character_education_business_management = {
+		modifier = {
+			local_resources_factor = 0.10
+			production_speed_infrastructure_factor = 0.20
+		}
+			research_bonus = {
+				industry = 0.1
+			}
+		}
+		
+		
+		#Merchant Navy
+		character_education_merchant_navy = {
+			modifier = {
+			industrial_capacity_dockyard = 0.1}
+			research_bonus = {
+				naval = 0.1
+			}			
+
+   			}
+		
+		#Military Industrial Complex
+		character_education_military_industrial_complex = {
+		research_bonus = {
+				industry = 0.1
+			}
+		modifier = {
+						industrial_capacity_factory = 0.10
+		}
+	}
+	
+
+		
+		#Classical Scholarship
+		character_education_classical_scholarship = {
+			modifier = {
+			political_power_gain = 0.25
+		}
+		}
+		#Scientific Naturalism
+		character_education_scientific_naturalism = {
+			
+			modifier = {
+				research_time_factor = -0.10			}
+		
+		}
+}
+}
+
+#####---------------------------------------------------------------------> End

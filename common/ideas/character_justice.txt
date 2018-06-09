@@ -1,0 +1,90 @@
+#The justice character ideas
+ideas = {
+
+	character_justice = { 
+	
+		law = yes
+		
+		#Secret Police
+		character_justice_secret_police = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+			
+			ai_will_do = {
+   				factor = 100
+   			}
+		}
+		
+		#Enlilghtened Absolutism
+		character_justice_enlightened_absolutism = {
+		
+			
+		
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+
+   				
+   			}
+		}
+		
+		#Professional Police
+		character_justice_professional_police = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+   			}
+		}
+		
+		#Local Rule
+		character_justice_local_rule = {
+		
+			
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = yes
+
+			ai_will_do = {
+   				factor = 0.5
+				
+   				
+   			}
+		}
+		
+		#Anarchy
+		character_justice_anarchy = {
+			
+			modifier = {
+							### None yet
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0.5
+
+				
+				}		
+   			}
+		}
+	}
+
+
